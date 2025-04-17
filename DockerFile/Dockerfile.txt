@@ -1,3 +1,8 @@
-FROM tomcat:10.0
-COPY ./webapps/LearningPro192_chatBot.war /usr/local/tomcat/webapps/LearningPro192_chatBot.war
+# Tomcat mặc định start tại cổng 8080
 EXPOSE 9999
+FROM tomcat:10.0-jdk22
+RUN rm -rf /C:/Program Files/Apache Software Foundation/Tomcat 10.0/webapps/*
+# Copy file WAR của bạn vào Tomcat
+COPY ./webapps/LearningPro192_chatBot.war C:/Program Files/Apache Software Foundation/Tomcat 10.0/webapps/LearningPro192_chatBot.war
+
+CMD ["catalina.sh", "run"]
