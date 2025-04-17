@@ -1,0 +1,11 @@
+controller\ChatServlet.class
+controller\Test.class
+com\mycompany\chatbot\resources\JakartaEE91Resource.class
+controller\ChatBotServlet.class
+controller\ChatServlet1.class
+com\mycompany\chatbot\JakartaRestConfiguration.class
+com\mycompany\chatbot\NewServlet.class
+controller\ChatRequest.class
+controller\TesChat.class
+com\mycompany\chatbot\ChatbotServlet.class
+controller\ChatResponse.class

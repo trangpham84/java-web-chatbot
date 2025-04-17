@@ -1,0 +1,3 @@
+FROM tomcat:10.0
+COPY ./webapps/LearningPro192_chatBot.war /usr/local/tomcat/webapps/LearningPro192_chatBot.war
+EXPOSE 9999
