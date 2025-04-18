@@ -10,4 +10,4 @@ COPY LearningPro192_chatBot.war /usr/local/tomcat/webapps/
 EXPOSE 8080
 
 # Chạy Tomcat
-CMD ["/usr/local/tomcat/bin/catalina.sh", "run"]
+#CMD ["/usr/local/tomcat/bin/catalina.sh", "run"]
