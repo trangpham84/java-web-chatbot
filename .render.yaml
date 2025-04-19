@@ -1,7 +1,7 @@
 
 services:
   - type: web
-    name: LearningPro192_chatBot
+    name: ChatBotLearningJava
     env: docker
     plan: free
     autoDeploy: true
